@@ -1,0 +1,18 @@
+version: 4.0.77
+steps:
+  - prompt: Locate the cookie consent dialog.
+    commands:
+      - command: hover-text
+        text: Bunzlau Castle gebruikt cookies
+        description: cookie consent dialog
+        action: hover
+  - prompt: Locate the cookie consent dialog.
+    commands:
+      - command: scroll-until-text
+        text: Bunzlau Castle gebruikt cookies
+        direction: down
+  - prompt: Locate the cookie consent dialog.
+    commands:
+      - command: scroll-until-text
+        text: Bunzlau Castle gebruikt cookies
+        direction: down
