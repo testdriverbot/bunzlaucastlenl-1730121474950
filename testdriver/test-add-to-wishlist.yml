@@ -1,0 +1,29 @@
+version: 4.0.77
+steps:
+  - prompt: Locate a product on the homepage.
+    commands:
+      - command: hover-text
+        text: Accepteren
+        description: button to accept cookies
+        action: click
+  - prompt: Locate a product on the homepage.
+    commands:
+      - command: hover-text
+        text: Accepteren
+        description: button to accept cookies
+        action: click
+      - command: hover-text
+        text: Bekijk onze nieuwe collectie
+        description: link to view new collection
+        action: click
+  - prompt: Click on the heart icon to add the product to the wishlist.
+    commands:
+      - command: hover-image
+        description: heart icon on the product image
+        action: click
+  - prompt: >-
+      Assert that the product is added to the wishlist successfully.  # Use the
+      content of the file from the environment
+    commands:
+      - command: assert
+        expect: the heart icon is filled or a confirmation message is displayed
