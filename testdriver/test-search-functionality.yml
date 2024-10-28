@@ -1,0 +1,7 @@
+version: 4.0.77
+steps:
+  - prompt: Click on the search icon next to the "Waar ben je naar op zoek..." field.
+    commands:
+      - command: hover-image
+        description: search icon next to the "Waar ben je naar op zoek..." field
+        action: click
