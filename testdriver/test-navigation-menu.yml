@@ -1,0 +1,20 @@
+version: 4.0.77
+steps:
+  - prompt: Locate the "Servies" menu item.
+    commands:
+      - command: hover-text
+        text: Servies
+        description: menu item in the header
+        action: hover
+  - prompt: Locate the "Servies" menu item.
+    commands:
+      - command: hover-text
+        text: Servies
+        description: menu item in the header
+        action: hover
+  - prompt: Locate the "Servies" menu item.
+    commands:
+      - command: hover-text
+        text: Servies
+        description: menu item in the header
+        action: hover
