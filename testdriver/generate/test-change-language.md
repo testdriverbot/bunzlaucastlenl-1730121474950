@@ -1,0 +1,1 @@
+1. Locate the language selection dropdown
